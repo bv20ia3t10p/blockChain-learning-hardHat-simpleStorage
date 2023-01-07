@@ -30,7 +30,7 @@ async function main() {
   console.log(`Updated value is: ${updatedValue}`)
 }
 
-//delete artifact folder if compile issues arise
+//delete artifact/cache folder if compile issues arise
 
 async function verify(contractAddress, args) {
   console.log('Verifying contract...')
