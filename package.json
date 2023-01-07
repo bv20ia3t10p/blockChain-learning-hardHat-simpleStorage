@@ -1,0 +1,22 @@
+{
+  "name": "blockchain-learning-hardhat-simplestorage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git+https://github.com/bv20ia3t10p/blockChain-learning-hardHat-simpleStorage.git",
+  "author": "Phạm Trọng Phúc <94206242+bv20ia3t10p@users.noreply.github.com>",
+  "license": "MIT",
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/bv20ia3t10p/blockChain-learning-hardHat-simpleStorage/issues"
+  },
+  "homepage": "https://github.com/bv20ia3t10p/blockChain-learning-hardHat-simpleStorage#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.5"
+  }
+}
