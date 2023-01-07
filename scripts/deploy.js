@@ -4,10 +4,11 @@
 // npm install --save-dev @nomicfoundation/hardhat-toolbox
 // artifacts folder contains compiled code
 // get rpcurl from chainlink.org
+// yarn hardhat node > will run a local blockchain similar to ganache
 
 const { ethers, run, network } = require('hardhat')
 require('dotenv').config()
-
+//yarn hardhat console --network localhost > to run commands on the go
 async function main() {
   const SimpleStorageFactory = await ethers.getContractFactory('SimpleStorage')
   console.log('Deploying contract')
